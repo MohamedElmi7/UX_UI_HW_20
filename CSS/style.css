@@ -2,7 +2,7 @@
     position: relative;
     width: 1280px;
     height: 16336px;
-
+margin-left: 100px;
     background: #575757;
 }
 
@@ -792,6 +792,8 @@
     height: 555px;
     left: 247px;
     top: 199px;
+    
+    background: url(image.png);
 }
 
 .persons {
