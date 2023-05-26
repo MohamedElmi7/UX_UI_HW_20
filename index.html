@@ -6,8 +6,306 @@
 </head>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./CSS/style.css">
 
-<body>
+<body class="page">
+    <div class="topNav">
+        <div class="elmiLogo">
+            <img src=".//Images/Logo.png" alt="">
+        </div>
+        <ul class="nav nav-pills mb-3 justify-content-end" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                    aria-controls="pills-home" aria-selected="true">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+                    aria-controls="pills-profile" aria-selected="false">Works</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+                    aria-controls="pills-contact" aria-selected="false">Contacts</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+        </div>
+    </div>
+    <section id="projectOpener">
+        <h1 class="projectTitle">UX Mobile Project: 
+            Smol</h1>
+        <img class="smol" src=".//Images/Smol hero Imaage.png" alt="Hero">
+        <p class="heroImage">Discover a new and easier way to support your local small businesses. With Smol, small
+            business shoppers can
+            find and follow their new favorite small businesses while also staying in the know about sales, hot drops,
+            restocks, and more events hosted by small businesses in their area.</p>
+    </section>
+    <hr>
+    <section id="projectOverview">
+        <h2 class="projectOverview">Project overview</h2>
+        <div class="problem">
+            <div class="card-body1">
+                <p class="card-text1">The Problem: Many small business shoppers are not aware of the products and
+                    services offered by small businesses in their area. They lack the means to easily follow small
+                    businesses as well as to stay up to date with product availability across different small
+                    businesses. How might we enable small business shoppers to easily find and follow small businesses
+                    in the area, while giving them visibility to product availability, quality, source, and pricing
+                    information in order to encourage more small business shopping and support the local economy?</p>
+            </div>
+        </div>
+        <div class="solution">
+            <div class="card-body2">
+                <p class="card-text2">The Solution: Smol is an app that enables & facilitates users to discover and
+                    follow small businesses in their area, giving them access to product information such as
+                    availability, source, and pricing.</p>
+            </div>
+        </div>
+        <div class="deliverables">
+            <div class="card-body3">
+                <p class="card-text3">deliverables: User Research ( interviews/analysis), Definition & Synthesis,
+                    Brainstorming & Ideation, Prototyping, User Testing & OutcomesTools Used: Figma, Miro, Figjam,
+                    Google Suite, Trello</p>
+                <p class="card-text4">Tools Used: Figma, Miro, Figjam, Google Suite, Trello</p>
+                <p class="card-text5">Team Size: 4 Members- Keauna Lyles, Nicole Tierney, Mohamed Elmi, Teddy
+                    Noun </p>
+                <p class="card-text6">Timeline & Scope: 3 weeks- (January 2023) </p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="Research">
+        <h2 id="Research">User Research</h2>
+        <div id="interviewSurveys">
+            <div class="is">
+                <h3 class="interviewSurveys">Interview & Surveys</h3>
+            </div>
+            <p class="inter">We started by conducting 5 user interviews and collecting 20 survey responses in order
+                to
+                discover users’ considerations and preferences when shopping with small businesses. We discovered
+                there
+                was an opportunity to create a solution for business and product visibility.</p>
+        </div>
+        <div class="KeyInsight">
+            <div class="ki">
+                <h3 id="KeyInsight">Key Insights & Results</h3>
+            </div>
+            <p class="Key">Overall, What we discovered from our interviews & surveys is that the majority of the pain
+                points that people faced when shopping with small businesses is not being sure, whether or not the
+                products will be available.As well as favoring quality despite the price. From this insight, we were
+                able to determine that there was an opportunity to create a solution for business and product
+                visibility.</p>
+        </div>
+        <div id="cards">
+            <div id="card1">
+                <h3 class="percent1"> 68%</h3>
+                <p class="textCard1">Say limited product availability discourages shopping small</p>
+            </div>
+            <div id="card2">
+                <h3 class="percet2">74%</h3>
+                <p class="textCard2">Say lack of convenience discourages shopping small</p>
+            </div>
+            <div id="card3">
+                <h3 class="percent3">52%</h3>
+                <p class="textCard3">Think convenience matters most</p>
+            </div>
+            <div id="card3">
+                <h3 class="percent4">74%</h3>
+                <p class="textCard4">Say quality encourages them to shop small</p>
+            </div>
+            <div class="quote">
+                <p id="quote">“Lack of availability can be annoying and trying to discover when it will come back in
+                    stock.”</p>
+                <h2 class="peri">- Peri</h2>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="define">
+        <h2 class="Synthesis"> Definition & Synthesis</h2>
+        <div class="affinity">
+            <div class="affMap">
+                <h3 id="affinity">
+                    Affinity Map
+                </h3>
+            </div>
+            <p class="map">After being able to gather data from our interviews and surveys we were able to develop an
+                affinity diagram.</p>
+            <img id="am" src="..//UX_UI_HW_20/Images/affinty map.png" alt="map">
+        </div>
+        <div class="persons">
+            <div id="personaUser">
+                <h3 class="user">
+                    User Persona
+                </h3>
+            </div>
+            <p class="personatex1">After compiling with and organizing our data we were able to create the user persona
+                based on our User insight.</p>
+            <p class="personatex2">
+                User insight: Users like to browse small businesses for unique experiences and high-quality products.
+                However, lack of product availability can discourage them from shopping small as frequently. We want to
+                encourage users to feel like regulars by shopping at small businesses.
+            </p>
+            <img class="userPersona" src="../UX_UI_HW_20/Images/user persona.png" alt="userpersona">
+        </div>
+        <div class="competite">
+            <div class="comepetititoranall">
+                <h3 id="comepetititoranall">
+                    Competitor Analysis
+                </h3>
+            </div>
+            <p class="competitorText">
+                According to our survey results, some of the other apps that solve the problem of product visibility
+                include Google Maps, Etsy, TikTok, and Instagram. Our competitor analysis provided the insights on how
+                they compare and contrast to our solution.
+            </p>
+            <img class="holder1" src="../UX_UI_HW_20/Images/Image place holder 1.png" alt="placeholder1">
+        </div>
+    </section>
+    <hr>
+    <section class="ideation">
+        <h2 class="ideate">
+            Ideation
+        </h2>
+        <div class="matrix">
+            <div class="prority">
+                <h3 id="prority">Feature Prioritization Matrix</h3>
+            </div>
+            <p class="matpro"> We had a wide variety of features and ideas for the app but we need to be clear and
+                concise with our approach, so we utilized a Feature Prioritization Matrix to organize/ decide what we
+                wanted to implement.</p>
+            <img class="feature" src="../UX_UI_HW_20/Images/prority matrix.png" alt="">
+        </div>
+        <div class="userScenario">
+            <div class="scenario">
+                <h3 id="scenario">User Scenario</h3>
+            </div>
+            <p id="userScenario">
+                Once we had the features we wanted we wanted to be able to visualize how and when would a user use our
+                application. So we created a User scenario based on our user persona who is looking for a gift for their
+                partner.
+            </p>
+            <img class="US" src="../UX_UI_HW_20/Images/User scenario.png" alt="">
+        </div>
+    </section>
+    <section class="prototyping">
+        <div>
+            <div class="Flow">
+                <h3 id="Flow">
+                    User Flow
+                </h3>
+            </div>
+            <p class="flowText">
+                For our user flow, we decided that after onboarding, the user would come to an intro survey. After the
+                intro survey, they’ll land on a For You feed, where they can then navigate to product detail and
+                business profile pages.
+            </p>
+            <img clas="userFlow" src="../UX_UI_HW_20/Images/user flow.png" alt="">
+        </div>
+        <div>
+            <div class="mid">
+                <h3 id="mid">Mid-to-HiFi</h3>
+            </div>
+            <p class="midText">As a group we each created our own prototypes and combine the best asspects of each into
+                one quailty prototype.We took the base of the app from Nicole’s prototype, using her onboarding and
+                intro survey screens; took the travel distance inquiry from myself, alerts page from Teddy, the For
+                You/Following tab design from Keauna to form the prototype we used for testing. </p>
+            <div>
+                <img class="on" src="../UX_UI_HW_20/Images/mid fi onbarding.png" alt="">
+                <p class="onBoarding">On boarding | Creating an account | Sign In</p>
+            </div>
+            <div class="survey">
+                <img id="survey" src="../UX_UI_HW_20/Images/mid fi survey questions.png" alt="">
+                <p class="surveytext">Survey questions </p>
+            </div>
+            <div class="location">
+                <img id="location" src="../UX_UI_HW_20/Images/mid fi Location _ For You Page.png" alt="">
+                <p class="loco">Location | For You Page</p>
+            </div>
+            <div class="shop">
+                <img class="shopPage" src="../UX_UI_HW_20/Images/mid fi Shop Page _ Reviews _ About .png" alt="">
+                <p id="shop">Shop Page | Reviews | About </p>
+            </div>
+            <div class="Maps">
+                <img ic="Maps" src="../UX_UI_HW_20/Images/mid fi Product Page _ Maps.png" alt="">
+                <p class="product">Product Page | Maps</p>
+            </div>
+            <div class="alerts">
+                <img id="alerts" src="../UX_UI_HW_20/Images/mid fi Alerts (Sales, Item Drops, Events) .png" alt="">
+                <p class="alertText">
+                    Alerts (Sales, Item Drops, Events) 
+                </p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="UserTestingoutcomes">
+        <h2 class="test">
+            User Testing & Outcomes
+        </h2>
+        <div class="plan">
+            <div id="plan">
+                <h3 class="plans">User Test Plan</h3>
+            </div>
+            <p class="cool">
+                We tested our prototype on 4 users. Our main objectives where to see if users were able to discover
+                businesses then get relevant product information AND if users are able to navigate to the alerts page
+                and get directions to a business that they follow.
+            </p>
+        </div>
+        <div class="outcome">
+            <div id="Outcomes">
+                <h3 class="out">
+                    We tested our prototype on 4 users. Our main objectives where to see if users were able to discover
+                    businesses then get relevant product information AND if users are able to navigate to the alerts
+                    page and get directions to a business that they follow.
+                </h3>
+            </div>
+            <img class="outimage" src="../UX_UI_HW_20/Images/Image place holder 2.png" alt="">
+        </div>
+    </section>
+    <hr>
+    <section class="ConclusionFutureOpportunities">
+        <h2 class="conclude">Conclusion & Future Opportunities</h2>
+        <div id="conclude">
+            <div id="conslusion">
+                <h3 class="Conclusion">Conclusion</h3>
+            </div>
+            <p class="confu">
+                Our user testing provided valuable feedback. Our flows and tasks were all successfully completed by user
+                testers, though further improvements around design elements and building out the rest of the features
+                would improve the functionality and vision of smol.
+            </p>
+        </div>
+        <div class="finalThoughts">
+            <div class="final">
+                <h3 id="final">
+                    Final thoughts
+                </h3>
+                <p class="thoughts"> - With more time we would build out the “sign in with Google” option along with
+                    other social sign ups.
+                    - This will make the login/sign up process more efficient for our users.  
+                    - We were asked, “How would I return to the intro survey if I wanted to update my selections?” We
+                    didn’t initially build this into the prototype, but given more time we would build out this ability
+                    under the profile in the bottom navigation.  
+                    - With more time we would build out the following tab and the elements in the navigation bar
+                    including: profile, favorites and maps. We would also add more design elements (color, etc.)</p>
+                </p>
+            </div>
+            <div class="viewPro">
+                <h3 id="viewPro">View Other Projects</h3>
+            </div>
+            <div class="resume">
+                <h3 id="resume">View Resume</h3>
+            </div>
+            <img class="footer" src="/Images/Bottom contacts and copyright.png" alt="">
+    </section>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -17,76 +315,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-
-    <div class="elmiLogo">
-        <img src=".//Images/Logo.png" alt="">
-    </div>
-
-    <ul class="nav nav-pills mb-3 justify-content-end" id="pills-tab" role="tablist">
-        <li class="nav-item">
-            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
-                aria-controls="pills-home" aria-selected="true">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
-                aria-controls="pills-profile" aria-selected="false">Profile</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
-                aria-controls="pills-contact" aria-selected="false">Contact</a>
-        </li>
-    </ul>
-    <div class="tab-content" id="pills-tabContent">
-        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...
-        </div>
-        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
-        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
-    </div>
-    <div id="projectOpener">
-        <h1 class="projectTitle">UX Mobile Project: 
-            Smol</h1>
-        <img src=".//Images/Smol hero Imaage.png" alt="Hero">
-        <p>Discover a new and easier way to support your local small businesses. With Smol, small business shoppers can
-            find and follow their new favorite small businesses while also staying in the know about sales, hot drops,
-            restocks, and more events hosted by small businesses in their area.</p>
-    </div>
-    <hr>
-    <div id="projectOverview">
-        <h1>Project overview</h1>
-        <div class="card text-black mb-3" style="max-width: 18rem;">
-            <div class="card-body">
-                <p class="card-text">The Problem: Many small business shoppers are not aware of the products and
-                    services offered by small businesses in their area. They lack the means to easily follow small
-                    businesses as well as to stay up to date with product availability across different small
-                    businesses. How might we enable small business shoppers to easily find and follow small businesses
-                    in the area, while giving them visibility to product availability, quality, source, and pricing
-                    information in order to encourage more small business shopping and support the local economy?</p>
-            </div>
-            <div class="card text-black mb-3" style="max-width: 18rem;">
-                <div class="card-body">
-                    <p class="card-text">The Solution: Smol is an app that enables & facilitates users to discover and
-                        follow small businesses in their area, giving them access to product information such as
-                        availability, source, and pricing.</p>
-                </div>
-                <div class="card text-black mb-3" style="max-width: 18rem;">
-                    <div class="card-body">
-                        <p class="card-text">deliverables: User Research ( interviews/analysis), Definition & Synthesis,
-                            Brainstorming & Ideation, Prototyping, User Testing & Outcomes</p>
-                        <p class="card-text">Tools Used: Figma, Miro, Figjam, Google Suite, Trello</p>
-                        <p class="card-text">Team Size: 4 Members- Keauna Lyles, Nicole Tierney, Mohamed Elmi, Teddy
-                            Noun </p>
-                        <p class="card-text">Timeline & Scope: 3 weeks- (January 2023) </p>
-                    </div>
-                    </div>
-                </div>
-               </div>
-               <hr>
-               <div>
-                <h1>User Research</h1>
-                <div id="interview&Surveys">
-                    <h2>Interview & Surveys</h2>
-                </div>
-                
 </body>
 
 </html

@@ -1,0 +1,639 @@
+.page{
+    position: relative;
+width: 1280px;
+height: 16336px;
+
+background: #575757;
+}
+.topNav{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 379px;
+
+position: absolute;
+width: 1149px;
+height: 120px;
+left: 40px;
+top: 40px;
+
+background: #575757;
+}
+.elmiLogo{
+width: 130px;
+height: 90.5px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+#projectOpener{
+    position: absolute;
+    width: 849px;
+    height: 822px;
+    left: 188px;
+    top: 260px;
+}
+.projectTitle{
+    position: absolute;
+width: 463px;
+height: 87px;
+left: 220px;
+top: 0px;
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 49px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.smol{
+    position: absolute;
+    width: 446px;
+    height: 446px;
+    left: 219px;
+    top: 137px;
+}
+.heroImage{
+    position: absolute;
+    width: 849px;
+    height: 189px;
+    left: 0px;
+    top: 633px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 33px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+#projectOverview{
+    position: absolute;
+    width: 1206px;
+    height: 718px;
+    left: 33px;
+    top: 1233px;
+}
+.projectOverview{
+    position: absolute;
+    width: 407px;
+    height: 39px;
+    left: 7px;
+    top: 0px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 49px;
+    
+    color: #FFFFFF;
+}
+.problem{
+
+}
+.card-body1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 1199px;
+    height: 190px;
+    left: 7px;
+    top: 86px;
+    
+    background: #6F7DF7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+.card-text1{
+    width: 1159px;
+    height: 150px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.solution{
+
+}
+.card-body2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 1199px;
+    height: 115px;
+    left: 7px;
+    top: 326px;
+    
+    background: #6F7DF7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+.card-text2{
+    width: 1159px;
+    height: 75px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 25px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.deliverables{
+    
+}
+.card-body3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    
+    position: absolute;
+    width: 1199px;
+    height: 260px;
+    left: 0px;
+    top: 488px;
+    
+    background: #6F7DF7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;}
+.card-text3{
+    width: 1159px;
+    height: 50px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 25px;
+    text-align: center;
+    
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.card-text4{
+    width: 697px;
+    height: 20px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 25px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.card-text5{
+    width: 1159px;
+    height: 25px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 25px;
+
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.card-text6{
+    width: 1159px;
+    height: 25px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 25px;
+  
+    text-align: center;
+    
+    color: #FFFFFF;
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+.Research{
+    position: absolute;
+    width: 1200px;
+    height: 1354px;
+    left: 40px;
+    top: 2051px;
+}
+#Research{
+
+    position: absolute;
+    width: 356px;
+    height: 39px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 49px;
+    
+    color: #FFFFFF;
+    
+}
+#interviewSurveys{
+    position: absolute;
+    width: 1200px;
+    height: 167px;
+    left: 0px;
+    top: 139px;    
+}    
+.is{
+    box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 0px 10px;
+gap: 10px;
+
+position: absolute;
+width: 314px;
+height: 43px;
+left: 0px;
+top: 0px;
+
+border-bottom: 4px solid #6F7DF7;
+}
+.interviewSurveys{
+    width: 314px;
+    height: 33px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.inter{
+    position: absolute;
+    width: 1200px;
+    height: 75px;
+    left: 0px;
+    top: 92px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.KeyInsight{
+    position: absolute;
+    width: 1200px;
+    height: 206px;
+    left: 0px;
+    top: 383px;
+}
+.ki{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 0px 10px;
+    gap: 13px;
+    
+    position: absolute;
+    width: 352px;
+    height: 43px;
+    left: 0px;
+    top: 0px;
+    
+    border-bottom: 4px solid #6F7DF7;
+}
+#KeyInsight{
+
+}
+.Key{
+
+}
+#cards{
+
+}
+#card1{
+
+}
+.percent1{
+
+}
+.percent2{
+    
+}.percent3{
+    
+}.percent4{
+    
+}
+.quote{
+
+}
+#quote{
+
+}
+.peri{
+
+}
+.define{
+
+}
+.Synthesis{
+
+}
+.affinity{
+
+}
+.affMap{
+
+}
+#affinity{
+
+}
+.map{
+
+}
+.am{
+
+}
+.persons{
+
+}
+#personaUser{
+
+}
+.user{
+
+}
+.personatex1{
+
+}
+.personatex2{
+
+}
+.userPersona{
+
+}
+.competite{
+
+}
+.comepetititoranall{
+
+}
+#comepetititoranall{
+
+}
+.competitorText{
+
+}
+.holder1{
+
+}
+.ideation{
+
+}
+.ideate{
+
+}
+.matrix{
+
+}
+.prority{
+
+}
+#prority{
+
+}
+.matpro{
+
+}
+.feature{
+
+}
+.userScenario{
+
+}
+.scenario{
+
+}
+#scenario{
+
+}
+#userScenario{
+
+}
+.US{
+
+}
+.prototyping{
+
+}
+.Flow{
+
+}
+#Flow{
+    
+}
+.flowText{
+
+}
+.userFlow{
+
+}
+.mid{
+
+}
+#mid{
+
+}
+.midText{
+
+}
+.on{
+
+}
+.onBoarding{
+
+}
+.survey{
+
+}
+#survey{
+
+}
+.surveytext{
+
+}
+.location{
+
+}
+#location{
+
+}
+.loco{
+
+}
+.shop{
+
+}
+.shopPage{
+
+}
+#shop{
+
+}
+.Maps{
+
+}
+#Maps{
+
+}
+.product{
+
+}
+.alerts{
+
+}
+#alerts{
+
+}
+.alertText{
+
+}
+.UserTestingoutcomes{
+
+}
+.test{
+
+}
+.plan{
+
+}
+#plan{
+
+}
+.plans{
+
+}
+.cool{
+
+}
+.outcome{
+
+}
+#Outcomes{
+
+}
+#out{
+
+}
+.outimage{
+
+}
+.ConclusionFutureOpportunities{
+
+}
+.conclude{
+
+}
+#conclude{
+
+}
+#conslusion{
+
+}
+.Conclusion{
+
+}
+.confu{
+
+}
+.finalThoughts{
+
+}
+.final{
+
+}
+#final{
+
+}
+.thoughts{
+
+}
+.viewPro{
+
+}
+#viewPro{
+
+}
+.resume{
+    
+}
+#resume{
+
+}
+.footer{
+
+}
